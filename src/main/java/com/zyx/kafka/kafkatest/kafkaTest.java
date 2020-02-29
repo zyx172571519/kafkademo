@@ -34,7 +34,6 @@ public class kafkaTest {
         System.out.print("朱以雄路过");
         System.out.print("朱以雄1再次路过4");
         System.out.println("奚好雷改动");
-        System.out.println("奚好雷合并改动");
         producer.close();
     }
 }
