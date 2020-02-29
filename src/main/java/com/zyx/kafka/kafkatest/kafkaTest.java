@@ -16,6 +16,7 @@ public class kafkaTest {
         //重试次数
         props.put("retries", 1);
         //批次大小
+        //修改
         props.put("batch.size", 16384);
         //等待时间
         props.put("linger.ms", 1);
