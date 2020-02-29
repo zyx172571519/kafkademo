@@ -32,7 +32,7 @@ public class kafkaTest {
                     Integer.toString(i), Integer.toString(i)));
         }
         System.out.print("朱以雄路过");
-        System.out.print("朱以雄1再次路过");
+        System.out.print("朱以雄1再次路过3");
         System.out.println("奚好雷改动");
         producer.close();
     }
