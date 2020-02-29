@@ -32,6 +32,7 @@ public class kafkaTest {
                     Integer.toString(i), Integer.toString(i)));
         }
         System.out.println("奚好雷改动");
+        System.out.println("奚好雷合并改动");
         producer.close();
     }
 }
