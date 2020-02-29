@@ -31,6 +31,7 @@ public class kafkaTest {
             producer.send(new ProducerRecord<String, String>("one",
                     Integer.toString(i), Integer.toString(i)));
         }
+        System.out.println("奚好雷改动");
         producer.close();
     }
 }
